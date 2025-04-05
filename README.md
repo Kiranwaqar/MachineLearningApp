@@ -41,44 +41,44 @@ A web-based machine learning application built with Streamlit that implements Ra
 
 1. Parameter Tuning:
 
-   Adjust data split ratio between training and test sets
+   - Adjust data split ratio between training and test sets
 
-   Modify Random Forest hyperparameters including:
+   - Modify Random Forest hyperparameters including:
 
-     Number of estimators
+     - Number of estimators
 
-     Max features
+     - Max features
 
-     Minimum samples split/leaf
+     - Minimum samples split/leaf
 
-     Performance criterion
+     - Performance criterion
 
 2. View Results:
 
-    See dataset overview
+    - See dataset overview
 
-    Examine model performance metrics
+    - Examine model performance metrics
 
-    View final model parameters
+    - View final model parameters
 
 
 ### Example Dataset
 The app comes with the California housing dataset as a built-in example. This dataset contains features like:
 
-MedInc - median income in block group
+- MedInc - median income in block group
 
-HouseAge - median house age in block group
+- HouseAge - median house age in block group
 
-AveRooms - average number of rooms per household
+- AveRooms - average number of rooms per household
 
-AveBedrms - average number of bedrooms per household
+- AveBedrms - average number of bedrooms per household
 
-Population - block group population
+- Population - block group population
 
-AveOccup - average number of household members
+- AveOccup - average number of household members
 
-Latitude - block group latitude
+- Latitude - block group latitude
 
-Longitude - block group longitude
+- Longitude - block group longitude
 
 The target variable is the median house value for California districts.
